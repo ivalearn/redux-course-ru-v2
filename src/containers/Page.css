@@ -31,3 +31,19 @@
   font-size: 22px;
   margin: 10px 0 0;
 }
+
+.spinner {
+  margin-left: 40px;
+  line-height: 16px;
+  vertical-align: middle;
+  animation: spinner-animation 0.1s ease-in infinite alternate;
+}
+
+@keyframes spinner-animation {
+  from {
+    font-size: 0.5em;
+  }
+  to {
+    font-size: 0.6em;
+  }
+}
